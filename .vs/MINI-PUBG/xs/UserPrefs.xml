@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{0C3ACF7C-E756-0EAB-EC3E-95661BB1D16A}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlockScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/WorldGenerate.cs" Line="47" Column="63" />
+      <File FileName="Assets/Scripts/BlockScript.cs" Line="19" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
