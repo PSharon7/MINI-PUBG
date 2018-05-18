@@ -60,6 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BlockScript.cs" />
+    <Compile Include="Assets\Scripts\Occlusion\OcclusionObject.cs" />
+    <Compile Include="Assets\Scripts\Occlusion\OcclusionScript.cs" />
     <Compile Include="Assets\Scripts\WorldGenerate.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/Sharon/Documents/Code/GitHub/MINI-PUBG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

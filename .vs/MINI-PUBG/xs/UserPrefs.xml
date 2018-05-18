@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{0C3ACF7C-E756-0EAB-EC3E-95661BB1D16A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlockScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Occlusion/OcclusionScript.cs">
     <Files>
       <File FileName="Assets/Scripts/WorldGenerate.cs" Line="47" Column="63" />
-      <File FileName="Assets/Scripts/BlockScript.cs" Line="19" Column="3" />
+      <File FileName="Assets/Scripts/BlockScript.cs" Line="14" Column="3" />
+      <File FileName="Assets/Scripts/Occlusion/OcclusionObject.cs" Line="34" Column="31" />
+      <File FileName="Assets/Scripts/Occlusion/OcclusionScript.cs" Line="18" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
