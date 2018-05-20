@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Occlusion/OcclusionScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/WorldGenerate.cs" Line="47" Column="63" />
+      <File FileName="Assets/Scripts/WorldGenerate.cs" Line="7" Column="29" />
       <File FileName="Assets/Scripts/BlockScript.cs" Line="14" Column="3" />
       <File FileName="Assets/Scripts/Occlusion/OcclusionObject.cs" Line="34" Column="31" />
-      <File FileName="Assets/Scripts/Occlusion/OcclusionScript.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/Occlusion/OcclusionScript.cs" Line="67" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
