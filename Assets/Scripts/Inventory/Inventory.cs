@@ -21,7 +21,8 @@ public class Inventory : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+    void Start () {
+        inventoryPanel.SetActive(!inventoryPanel.active);
         database = gameObject.GetComponent<ItemDatabase>();
 
         for (int i = 0; i < slotAmount; i++)
@@ -58,7 +59,7 @@ public class Inventory : MonoBehaviour {
         if(itemToAdd.Stackable && checkInventory(itemToAdd)){
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i].ID == id)
+                if (items[i].ID == id && slots[i].transform.GetChild(0).GetComponent<ItemData>().amount < maxAmount)
                 {
                     ItemData data = slots[i].transform.GetChild(0).GetComponent<ItemData>();
                     data.amount++;
@@ -87,8 +88,8 @@ public class Inventory : MonoBehaviour {
     bool checkInventory(Item item){
         for (int i = 0; i < items.Count; i++)
         {
-            if(items[i].ID == item.ID){
-                if(slots[i].transform.GetChild(0).GetComponent)
+            if (items[i].ID == item.ID && slots[i].transform.GetChild(0).GetComponent<ItemData>().amount < maxAmount)
+            {
                 return true;
             }
         }
