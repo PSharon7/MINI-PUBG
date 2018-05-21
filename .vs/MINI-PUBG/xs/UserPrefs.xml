@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{0C3ACF7C-E756-0EAB-EC3E-95661BB1D16A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlockScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnvironmentScripts/BlockScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/Inventory/ItemDatabase.cs" Line="19" Column="18" />
-      <File FileName="Assets/Resources/ItemData.txt" Line="14" Column="12" />
-      <File FileName="Assets/Scripts/Inventory/Inventory.cs" Line="50" Column="31" />
-      <File FileName="Assets/Scripts/Inventory/ItemData.cs" Line="27" Column="57" />
-      <File FileName="Assets/Scripts/Inventory/SlotScript.cs" Line="22" Column="23" />
-      <File FileName="Assets/Scripts/BlockScript.cs" Line="10" Column="17" />
+      <File FileName="Assets/Scripts/Inventory/Inventory.cs" Line="74" Column="70" />
+      <File FileName="Assets/Scripts/EnvironmentScripts/SaplingScript.cs" Line="21" Column="38" />
+      <File FileName="Assets/Scripts/EnvironmentScripts/WorldGenerate.cs" Line="24" Column="27" />
+      <File FileName="Assets/Scripts/EnvironmentScripts/BlockScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

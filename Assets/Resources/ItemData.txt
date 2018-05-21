@@ -1,15 +1,50 @@
 id: -1
 name: Empty
 stackable: false
+placeable: false
 slug: empty
 ,
 id: 0
 name: Dirt
 stackable: true
+placeable: true
 slug: dirt
 ,
 id: 1
 name: Stone
 stackable: true
+placeable: true
 slug: stone
+,
+id: 2
+name: Cobblestone
+stackable: true
+placeable: true
+slug: cobblestone
+,
+id: 3
+name: Wood
+stackable: true
+placeable: true
+slug: wood
+,
+id: 4
+name: Leaf
+stackable: true
+placeable: true
+slug: leaf
+,
+id: 5
+name: Oak_Sapling
+stackable: true
+placeable: true
+slug: oak_Sapling
 ;
+
+::: template :::
+
+id:
+name:
+stackable:
+placeable:
+slug:

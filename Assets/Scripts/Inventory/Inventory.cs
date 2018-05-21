@@ -13,6 +13,9 @@ public class Inventory : MonoBehaviour {
 
     public GameObject slot;
     public GameObject invItem;
+
+    public int hoverIndex = 0;
+
     public GameObject hotbarPanel;
     public GameObject inventoryPanel;
 
@@ -22,7 +25,6 @@ public class Inventory : MonoBehaviour {
 
 	// Use this for initialization
     void Start () {
-        inventoryPanel.SetActive(!inventoryPanel.active);
         database = gameObject.GetComponent<ItemDatabase>();
 
         for (int i = 0; i < slotAmount; i++)
@@ -45,14 +47,38 @@ public class Inventory : MonoBehaviour {
 
         AddItem(0);AddItem(0);AddItem(0);
         AddItem(1);
+
+        ToggleInventory();
     }
 
 	private void Update()
 	{
-        if(Input.GetKeyDown(KeyCode.Tab)){
-            ToggleInventory();
+        for (int i = 0; i < slotAmount; i++)
+        {
+            if(i == hoverIndex){
+                slots[i].GetComponent<Image>().color = Color.white;
+            }
+            else{
+                slots[i].GetComponent<Image>().color = slot.GetComponent<Image>().color;
+            }
         }
 	}
+
+    public void RemoveItem(){
+        for (int i = 0; i < slotAmount; i++)
+        {
+            if (i == hoverIndex && items[i].ID != -1){
+                ItemData data = slots[i].transform.GetChild(0).GetComponent<ItemData>();
+                data.amount--;
+                if(data.amount <= 0){
+                    Destroy(slots[i].transform.GetChild(0).gameObject);
+                    items[i] = database.GetItemByID(-1);
+                }
+                data.transform.GetChild(0).GetComponent<Text>().text = data.amount.ToString();
+                break;
+            }
+        }
+    }
 
 	public void AddItem(int id){
         Item itemToAdd = database.GetItemByID(id);

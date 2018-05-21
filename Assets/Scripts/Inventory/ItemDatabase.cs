@@ -8,15 +8,19 @@ public struct Item {
     public int ID;
     public string Name;
     public bool Stackable;
+    public bool Placeable;
     public string Slug;
     public Sprite Sprite;
+    public GameObject Object;
 
-    public Item(int id, string name, bool stackable, string slug) {
+    public Item(int id, string name, bool stackable, bool placeable, string slug) {
         ID = id;
         Name = name;
         Stackable = stackable;
+        Placeable = placeable;
         Slug = slug;
         Sprite = Resources.Load<Sprite>("Sprites/" + slug);
+        Object = Resources.Load<GameObject>("Blocks/" + slug + "Block");
     }
 
 }
@@ -43,6 +47,7 @@ public class ItemDatabase : MonoBehaviour {
             int.Parse(sr.ReadLine().Replace("id: ", "")),
             sr.ReadLine().Replace("name: ", ""),
             bool.Parse(sr.ReadLine().Replace("stackable: ", "")),
+            bool.Parse(sr.ReadLine().Replace("placeable: ", "")),
             sr.ReadLine().Replace("slug: ", "")
         ));
 
