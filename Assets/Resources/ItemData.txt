@@ -1,0 +1,15 @@
+id: -1
+name: Empty
+stackable: false
+slug: empty
+,
+id: 0
+name: Dirt
+stackable: true
+slug: dirt
+,
+id: 1
+name: Stone
+stackable: true
+slug: stone
+;

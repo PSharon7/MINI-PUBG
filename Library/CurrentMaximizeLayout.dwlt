@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 95
+  controlID: 5039
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 96
+  controlID: 5040
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 97
+  controlID: 5018
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0030147417, y: 0.99527466, z: 0.032856002, w: -0.09132264}
     speed: 2
-    m_Value: {x: 0.0030147417, y: 0.99527466, z: 0.032856002, w: -0.09132264}
+    m_Value: {x: 0.0030147417, y: 0.99527466, z: 0.032856002, w: -0.09132263}
   m_Size:
     m_Target: 3.126311
     speed: 2
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 15122
+  m_LastSelectedObjectID: -6285136
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -377,23 +377,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 123b0000
-    m_LastClickedID: 15122
+    m_SelectedIDs: b018a0ff
+    m_LastClickedID: -6285136
     m_ExpandedIDs: 58a6bbff66a6bbff70a6bbff76a6bbff94a6bbff98a6bbffa2a6bbffb6a6bbffcc75ffffc2a3ffff4aa4ffffd2a5ffffd4a5fffff0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Bip001 L Thigh
-      m_OriginalName: Bip001 L Thigh
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -4479336
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 582
+    y: 612
     width: 1161
     height: 266
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -491,34 +491,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 52
   m_LastFolders:
-  - Assets/ToonyTinyPeople
+  - Assets/Resources
   m_LastFoldersGridSize: 52
   m_LastProjectPath: /Users/Sharon/Documents/Code/GitHub/MINI-PUBG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 80290000
-    m_LastClickedID: 10624
-    m_ExpandedIDs: 0000000080290000c22a00000c2d0000622d0000662d0000f2350000f43500005436000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3e490000
+    m_LastClickedID: 18750
+    m_ExpandedIDs: 0000000080290000982b0000662d0000f2350000f43500005436000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11160
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -532,7 +532,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000080290000c22a0000982b0000622d0000662d0000
+    m_ExpandedIDs: 0000000080290000c22a00000c2d0000622d0000662d0000f2350000f43500005436000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -557,9 +557,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 123b0000
-    m_LastClickedInstanceID: 15122
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: b018a0ff
+    m_LastClickedInstanceID: -6285136
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: fa2200002a220000c02a0000a82a0000ac2a0000722b0000542c0000562c0000d80a0000de090000d009000052070000c45700009c2000000c23000008210000761c00001e680400961c000002050000f80400009e1c0000fa350000a81c0000dc1b0000781e000002070000b8070000a80700007a090000a60b0000d4070000c80700001408000070360000eef40000e6f800008e08000064090000aa080000c2080000b60800005609000078660000d00800009e0b00000a4300004e400000900a0000c20a0000dc470000d22d0000860b0000462f0000ca0a00009c0a000014300000fa310000440b000076640100d03100005a0501003a050100740d0000de0800004a0501005205010054b8f7ffa45bcaff480c00001a5506001a110000a8090000780b0000ae1200008c0a000034090000942b00000c9cffffb40900007e120000261200007051000078510000465100004e510000640f00005e51000018100000844000001a400000be4e00000250000000000000d6300000e635000058360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1165
-    y: 19
+    y: 49
     width: 275
     height: 829
   m_PersistentViewDataDictionary: {fileID: 0}

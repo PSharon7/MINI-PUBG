@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class BlockScript : MonoBehaviour {
 
+    Inventory inv;
+    public int id;
+
 	// Use this for initialization
-	void Start () {
-		
+    void Start () {
+        inv = GameObject.FindGameObjectWithTag("InventoryManager").GetComponent<Inventory>();
 	}
 	
 	// Update is called once per frame
@@ -16,6 +19,7 @@ public class BlockScript : MonoBehaviour {
 
 	void OnMouseDown()
 	{
+        inv.AddItem(id);
         Destroy(this.gameObject);
 	}
 }

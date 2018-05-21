@@ -60,9 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BlockScript.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventory\ItemData.cs" />
+    <Compile Include="Assets\Scripts\Inventory\ItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\Inventory\SlotScript.cs" />
     <Compile Include="Assets\Scripts\Occlusion\OcclusionObject.cs" />
     <Compile Include="Assets\Scripts\Occlusion\OcclusionScript.cs" />
     <Compile Include="Assets\Scripts\WorldGenerate.cs" />
+    <None Include="Assets\Resources\ItemData.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/Sharon/Documents/Code/GitHub/MINI-PUBG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

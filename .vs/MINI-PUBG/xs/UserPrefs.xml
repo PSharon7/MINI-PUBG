@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{0C3ACF7C-E756-0EAB-EC3E-95661BB1D16A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Occlusion/OcclusionScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BlockScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/WorldGenerate.cs" Line="7" Column="29" />
-      <File FileName="Assets/Scripts/BlockScript.cs" Line="14" Column="3" />
-      <File FileName="Assets/Scripts/Occlusion/OcclusionObject.cs" Line="34" Column="31" />
-      <File FileName="Assets/Scripts/Occlusion/OcclusionScript.cs" Line="67" Column="1" />
+      <File FileName="Assets/Scripts/Inventory/ItemDatabase.cs" Line="19" Column="18" />
+      <File FileName="Assets/Resources/ItemData.txt" Line="14" Column="12" />
+      <File FileName="Assets/Scripts/Inventory/Inventory.cs" Line="50" Column="31" />
+      <File FileName="Assets/Scripts/Inventory/ItemData.cs" Line="27" Column="57" />
+      <File FileName="Assets/Scripts/Inventory/SlotScript.cs" Line="22" Column="23" />
+      <File FileName="Assets/Scripts/BlockScript.cs" Line="10" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
