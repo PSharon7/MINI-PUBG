@@ -50,7 +50,7 @@ public class WorldGenerate : MonoBehaviour {
                         dirt.transform.SetParent(environmentTransform.transform);
 
                         int chance = Random.Range(0, 100);
-                        if (y == maxY - 1 && chance < 3)
+                        if (y == maxY - 1 && chance < 1)
                         {
                             CreateTree(new Vector3(x, y + 2, z));
                         }

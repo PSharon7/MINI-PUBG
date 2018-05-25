@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{0C3ACF7C-E756-0EAB-EC3E-95661BB1D16A}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnvironmentScripts/BlockScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScripts/PlayerAttack.cs">
     <Files>
-      <File FileName="Assets/Scripts/Inventory/Inventory.cs" Line="74" Column="70" />
-      <File FileName="Assets/Scripts/EnvironmentScripts/SaplingScript.cs" Line="21" Column="38" />
-      <File FileName="Assets/Scripts/EnvironmentScripts/WorldGenerate.cs" Line="24" Column="27" />
-      <File FileName="Assets/Scripts/EnvironmentScripts/BlockScript.cs" Line="15" Column="19" />
+      <File FileName="Assets/Scripts/PlayerScripts/PlayerHealth.cs" Line="22" Column="6" />
+      <File FileName="Assets/Scripts/PlayerScripts/PlayerAttack.cs" Line="53" Column="33" />
+      <File FileName="Assets/Scripts/PlayerScripts/EnemyHealth.cs" Line="6" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

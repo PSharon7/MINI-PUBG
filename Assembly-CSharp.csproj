@@ -68,7 +68,10 @@
     <Compile Include="Assets\Scripts\Inventory\SlotScript.cs" />
     <Compile Include="Assets\Scripts\Occlusion\OcclusionObject.cs" />
     <Compile Include="Assets\Scripts\Occlusion\OcclusionScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerInputs.cs" />
     <None Include="Assets\Resources\ItemData.txt" />
     <Reference Include="UnityEditor.StandardEvents">
