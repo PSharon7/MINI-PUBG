@@ -59,4 +59,6 @@ public class PlayerAttack : MonoBehaviour {
             gunLine.SetPosition(1, hit.point);
         }
     }
+
+
 }
